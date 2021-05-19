@@ -1,0 +1,26 @@
+@import './../../styles/variables';
+
+.logout-components {
+    background-color: $color-white;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 1.5rem;
+    text-align: center;
+
+    &__title {
+        color: $color-white;
+        text-align: center;
+    }
+
+    &__heading {
+        color: $color-black;
+        text-align: center;
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: space-around;
+    }
+}

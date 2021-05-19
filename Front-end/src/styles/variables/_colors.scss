@@ -1,0 +1,17 @@
+//We only allow hex color values in color variables
+//stylelint-disable color-no-hex
+$color-white: #fff;
+$color-white-transparent: rgba(255, 255, 255, 0.1);
+$color-black: #000;
+
+$color-gray-100: #eee; // brighter
+$color-gray-400: #ccc;
+$color-gray-500: #777;
+$color-gray-600: #282c34;
+$color-gray-900: #111; // darker
+
+$color-red: #fc5873;
+$color-blue: #2a72ff;
+$color-purple: #9155ff;
+$color-orange: #f63;
+//stylelint-enable color-no-hex

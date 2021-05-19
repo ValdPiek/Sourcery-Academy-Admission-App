@@ -1,0 +1,13 @@
+@import './../../styles/variables';
+
+.placeholder {
+    background-color: $color-white-transparent;
+    border: solid 0.1rem;
+    border-radius: 0.3rem;
+    margin: $margin-default;
+    padding: $padding-default $padding-double;
+
+    &__information {
+        font-size: 0.8rem;
+    }
+}

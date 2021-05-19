@@ -1,0 +1,66 @@
+@import './../../styles/variables';
+
+@mixin clearfix {
+    ::after {
+        clear: both;
+        content: '';
+        display: table;
+    }
+}
+
+.table-academy-students {
+    &__header-div {
+        @include clearfix;
+    }
+
+    &__heading {
+        display: inline-block;
+    }
+
+    &__back-button {
+        float: right;
+    }
+
+    &__info-div {
+        background: linear-gradient(to right, rgba($color-gray-500, 1), rgba($color-gray-500, 0));
+        border: solid;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        padding: 0.7rem;
+    }
+
+    &__container {
+        background: $color-white;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        margin: 0 auto;
+        overflow-x: auto;
+        padding: 1.5rem;
+    }
+
+    &__rows {
+        transition: background-color 0.5s linear;
+
+        &:nth-child(odd) {
+            background-color: $color-gray-100;
+        }
+
+        &:hover {
+            background-color: $color-gray-400;
+        }
+    }
+
+    &__user-link {
+        color: $color-black;
+        transition: color 0.3s linear;
+
+        &:hover {
+            color: $color-blue;
+        }
+    }
+
+    &__pagination {
+        color: $color-black;
+        text-align: center;
+    }
+}

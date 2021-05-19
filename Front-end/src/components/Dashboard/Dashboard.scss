@@ -1,0 +1,48 @@
+@import './../../styles/variables';
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+
+    &__blocks-medium {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    &__block-item-medium {
+        background-color: $color-white-transparent;
+        border: solid 0.1rem;
+        border-radius: 0.3rem;
+        flex: 1 1 20rem;
+        margin: $margin-default;
+        padding: $padding-default $padding-double;
+    }
+
+    &__block-item-small {
+        background-color: $color-white-transparent;
+        border: solid 0.1rem;
+        border-radius: 0.3rem;
+        flex: 1 1 8rem;
+        margin: $margin-default;
+        padding-bottom: $padding-default;
+        padding-left: $padding-double;
+    }
+
+    &__blocks-small {
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: $margin-double;
+
+        h1 {
+            color: $color-red;
+            margin: 0;
+        }
+    }
+
+    &__heading {
+        margin: $margin-default;
+    }
+}

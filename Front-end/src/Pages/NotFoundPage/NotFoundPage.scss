@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.not-found {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 2rem;
+    text-align: center;
+
+    &__title {
+        color: $color-red;
+    }
+}

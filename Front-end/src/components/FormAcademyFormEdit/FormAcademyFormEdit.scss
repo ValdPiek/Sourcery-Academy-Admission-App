@@ -1,0 +1,19 @@
+@import './../../styles/variables';
+
+.form-academy-form-edit {
+    background: $color-white;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: auto;
+    padding: $padding-double;
+
+    &__heading {
+        color: $color-black;
+        text-align: center;
+    }
+
+    &__actions {
+        text-align: center;
+    }
+}

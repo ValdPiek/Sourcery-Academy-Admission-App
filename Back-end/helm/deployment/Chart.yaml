@@ -1,0 +1,4 @@
+apiVersion: v1
+name: deployment
+version: 0.1.0
+description: Devbridge Sourcery deployment

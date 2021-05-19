@@ -1,0 +1,47 @@
+@import './../../styles/variables';
+.close-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-components {
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 1.5rem;
+    &__academy-h {
+        margin-bottom: 1rem;
+    }
+
+    &__data {
+        display: flex;
+    }
+
+    &__description {
+        margin: 2rem 0;
+    }
+
+    &__actions-position-end {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__actions-position-center {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.text-wrapper {
+    padding-left: 0.5rem;
+}
+
+.contact-text-wrapper {
+    padding-bottom: 2rem;
+}
+.action-button-wrapper {
+    margin: 0 0.5rem;
+}
+.button-icon-wrapper {
+    padding-right: 10px;
+}

@@ -1,0 +1,66 @@
+@import './../../styles/variables';
+
+.nav {
+    &__list {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        margin: 0 0.5rem;
+        position: relative;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0.5rem;
+
+            &::before {
+                background-color: $color-gray-400;
+                content: '';
+                display: block;
+                height: 2rem;
+                left: 0;
+                position: absolute;
+                top: 0.5rem;
+                width: 1px;
+            }
+        }
+    }
+
+    &__link {
+        display: block;
+        padding: 1rem 0;
+        position: relative;
+        transition: color 0.3s ease;
+
+        &::after {
+            background: $color-blue;
+            border: 0;
+            content: '';
+            display: block;
+            height: 2px;
+            position: absolute;
+            transition: all 0.3s ease;
+            width: 0;
+        }
+
+        &:hover {
+            color: $color-blue;
+        }
+
+        &.is-active {
+            color: $color-blue;
+
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+}

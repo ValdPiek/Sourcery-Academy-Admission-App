@@ -1,0 +1,52 @@
+@import './../../styles/variables';
+
+.list-forms {
+    &__header-box {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info-description {
+        background: $color-white-transparent;
+        border: solid;
+        border-radius: 0.5rem;
+        margin-bottom: $margin-default;
+        padding: $padding-default $padding-double;
+    }
+}
+
+.card-form,
+.response {
+    margin-bottom: $margin-default;
+
+    &__button {
+        margin-left: 0.5rem;
+    }
+
+    &__content {
+        padding: $padding-default;
+    }
+
+    &__datetime {
+        padding-top: 0.2rem;
+    }
+
+    &__description {
+        padding-top: $padding-default;
+    }
+
+    &__title-box {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title-link {
+        color: $color-blue;
+    }
+}
+
+.add-button {
+    height: 2.5rem;
+}

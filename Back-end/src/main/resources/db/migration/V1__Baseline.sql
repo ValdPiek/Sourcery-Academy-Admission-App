@@ -1,0 +1,2 @@
+-- Baseline file was deleted or overwritten.
+-- This file is needed for flyway to work properly (to not throw an error about migration history)

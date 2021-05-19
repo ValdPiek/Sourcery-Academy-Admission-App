@@ -1,0 +1,49 @@
+@import './../../styles/variables';
+
+.page-wrapper {
+    // Do not shorthand background property as this breaks image and overflow effect
+    background: linear-gradient(rgba($color-black, 0.5), rgba($color-black, 0.9)),
+        url('../../assets/img/background.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    align-items: center;
+    background-color: rgba($color-black, 0.4);
+    border-bottom: 1px solid $color-gray-500;
+    box-shadow: 0 1px 5px -3px $color-gray-400;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    padding: 0.25rem $padding-default;
+
+    &__logo {
+        height: 50px;
+        padding: 0.4rem;
+        vertical-align: middle;
+    }
+}
+
+.main {
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin: 0 auto;
+    max-width: $page-width-max;
+    padding: $padding-double $padding-default;
+    width: 100%;
+}
+
+.footer {
+    border-top: 1px solid $color-gray-500;
+    color: $color-gray-100;
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    padding: $padding-default;
+    text-align: center;
+}

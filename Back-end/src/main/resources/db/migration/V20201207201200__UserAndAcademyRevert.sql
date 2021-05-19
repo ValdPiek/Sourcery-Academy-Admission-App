@@ -1,0 +1,8 @@
+ALTER TABLE IF EXISTS public."user"
+	ALTER COLUMN created_by DROP NOT NULL,
+	ALTER COLUMN updated_by DROP NOT NULL;
+
+
+ALTER TABLE IF EXISTS public.academy
+	ALTER COLUMN time_start DROP NOT NULL,
+	ALTER COLUMN time_finish DROP NOT NULL;

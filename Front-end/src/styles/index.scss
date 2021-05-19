@@ -1,0 +1,27 @@
+@import 'site-styles';
+
+html {
+    font-size: $font-size-base;
+}
+
+body {
+    color: $color-white;
+    font-family: $font-family-base;
+}
+
+a {
+    color: $color-white;
+    text-decoration: none;
+}
+
+.link {
+    color: $color-blue;
+}
+
+.hr {
+    background: linear-gradient(to right, transparent, $color-white, transparent);
+    border: 0;
+    color: $color-white;
+    display: block;
+    height: 1px;
+}

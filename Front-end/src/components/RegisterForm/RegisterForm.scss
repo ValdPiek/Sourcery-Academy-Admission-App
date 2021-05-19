@@ -1,0 +1,24 @@
+@import './../../styles/variables';
+
+.form-register {
+    background-color: $color-white;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 2rem;
+
+    &__heading {
+        color: $color-black;
+        text-align: center;
+    }
+
+    &__actions {
+        text-align: center;
+    }
+
+    &__link {
+        color: $color-black;
+        margin: 0.5rem 0;
+    }
+}

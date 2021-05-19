@@ -1,0 +1,56 @@
+@import './../../styles/variables';
+
+.close-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-components {
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 1.5rem;
+    &__form-h-wrapper {
+        margin-bottom: $margin-default;
+    }
+    &__data {
+        display: flex;
+    }
+    &__actions-position-end-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: $margin-double;
+    }
+    &__actions-position-center-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: $margin-double;
+    }
+}
+
+.text-wrapper {
+    padding-left: 0.5rem;
+}
+
+.contact-text-wrapper {
+    padding-bottom: $margin-double;
+}
+
+.action-button-wrapper {
+    margin: 0 0.5rem;
+}
+
+.button-icon-wrapper {
+    padding-right: $margin-default;
+}
+
+.question-button-wrapper {
+    margin: 0.5rem auto;
+    max-width: 560px;
+}
+
+.card-question-add-wrapper {
+    margin: $margin-double auto;
+    max-width: 650px;
+    padding: 1.5rem;
+}
